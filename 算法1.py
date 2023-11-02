@@ -8,7 +8,7 @@ if sorted(nums) == nums:
         		if nums[i] + nums[j] == target:
                 		return [i,j]
 
-
+#   适用于有序列表
 else:
 	for i in range(len(nums)):
 		if nums[i] > target/2:
